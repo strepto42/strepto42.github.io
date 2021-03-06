@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from localhost:800/truffulatree/masterit200610.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Feb 2021 02:41:19 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Mark's Homepage - October 2006 - Q&A letters</title>
+	<LINK rel=STYLESHEET href="templates/truffulatree.css" type="text/css">
+	<META content="Mark" name="Author">
+	<META content="nerd's eye view,australia,photos,travel" name="KeyWords">
+	<META name="description" content="Q&A letters">
+	<META content="TravelWin CMS" name="Generator">
+	<script src="../../www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-1273091-1";
+		urchinTracker();
+	</script>
+</head>
+<body>
+<div id="page">
+	<div id="navigation">
+		<img src="images/mark_upside.jpg" alt="Peekaboo!" title="Peekaboo!" width="153" height="244">
+		<ul>
+	<li>Navigate to:</li>
+<li><a title="Q&A letters" href='masterit200601.html'>January 2006</a></li>
+<li><a title="Q&A letters" href='masterit200602.html'>February 2006</a></li>
+<li><a title="Q&A letters" href='masterit200603.html'>March 2006</a></li>
+<li><a title="Q&A letters" href='masterit200604.html'>April 2006</a></li>
+<li><a title="Q&A letters" href='masterit200605.html'>May 2006</a></li>
+<li><a title="Q&A letters" href='masterit200606.html'>June 2006</a></li>
+<li><a title="Q&A letters" href='masterit200607.html'>July 2006</a></li>
+<li><a title="Q&A letters" href='masterit200608.html'>August 2006</a></li>
+<li><a title="Q&A letters" href='masterit200609.html'>September 2006</a></li>
+<li><div class='activemenu'>October 2006</div></li>
+<li><a title="Q&A letters" href='masterit200611.html'>November 2006</a></li>
+<li><a title="Q&A letters" href='masterit200612.html'>December 2006</a></li>
+<li> </li><br><li>Or go back to:</li><li><a title='Q&A/MasterIT letters from 2006' href="masterit2006.html">2006 archive</a></li>
+</ul>
+<BR>
+		<p>
+		<IMG src="images/loraxlg.gif" alt="I speak for the trees!" title="I speak for the trees!">
+		<BR><BR>
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-6581529309076769";
+		google_ad_width = 120;
+		google_ad_height = 600;
+		google_ad_format = "120x600_as";
+		google_ad_type = "text";
+		google_ad_channel ="";
+		google_color_border = "E0FFE3";
+		google_color_bg = "E0FFE3";
+		google_color_link = "0000CC";
+		google_color_url = "008000.html";
+		google_color_text = "000000";
+		//--></script>
+		<script type="text/javascript"
+		  src="../../pagead2.googlesyndication.com/pagead/f.txt">
+		</script>
+		</p>
+	</div>
+	<div id="content">
+		<!-- display content -->
+		<h1>October 2006</h1>
+		You are here: <a title='truffulatree.com.au homepage' href="home.html">Home</a> > <a title='Mark's writing' href="written.html">Professional Writing</a> > <a title='My weekly Q&A column in The Australian' href="masterIT.html">MasterIT</a> > <a title='Q&A/MasterIT letters from 2006' href="masterit2006.html">2006 archive</a> > <a title='Q&A letters' href="masterit200610.html">October 2006</a>
+<br><br>		<br>
+<h2>3/10/06</h2><br>
+<b>I was wondering if there is an easy way to determine the total "uptime" of a system running Windows. It may seem frivolous to know, but I'm engaging in a pointless debate about server availability with a client (who hopefully doesn't read The Australian!). Bitterness aside, it would be handy to know in general.</b><br>
+<br>
+There are a few different ways you can gather the information you need to gently stick it to your valued client.<br>
+<br>
+The quick and nasty way to get an idea of a server's uptime is to look at it's network connection stats (just click the icon in the system tray). It shows how long the connection has been active, which will generally coincide with the time since the last reboot. Bear in mind that an interrupted network connection may skew this figure.<br>
+<br>
+Next cab off the rank is the "systeminfo" command. Open a command window (press Windows-R, type "cmd" and hit Enter is the easiest way) and type "systeminfo". You may now see a line showing the system uptime (the time elapsed since the last reboot).<br>
+<br>
+I say "may", because some editions of Windows (like XP home) don't support this command at all. Others, helpfully, display "n/a" in the System Up Time field.<br>
+<br>
+Another way is to use a little piece of vbscript like the one at tinyurl.com/ryxjo, which will read the data from Windows' brain directly and pop it up on screen.<br>
+<br>
+Perhaps the best option, given that you're trying to analyse server availability in general, is to download Microsoft's "uptime.exe" tool (available from tinyurl.com/8sge). It basically peruses the system logs for reboot and crash events, and can give you some extended information about the server and how long it's been up for, provided the appropriate log entries exist.<br>
+<br>
+<br>
+<b>Hi, I run identical Windows (2000 Pro) at work and at home. At work, Windows remembers user names and passwords from the first letter punched in, at home it does not. Our IT bloke does not know how to switch the feature on, can you help?</b><br>
+<br>
+Yes; it's hidden away in the Internet Explorer options. Go to tools->options in IE, then select the Content tab, click the Autocomplete button, and tick the various boxes.<br>
+<br>
+<br>
+<h2>10/10/06</h2><br>
+<b>I have a question about the Windows paging file. How big should it be? I've read conflicting opinions online; some say that it should be 1.5 times the size of your RAM whereas others think this is excessive.</b><br>
+<br>
+Microsoft's official recommendation is indeed to allocate 1.5 times as much virtual memory as you have physical RAM. Left to it's own devices, XP will auto-allocate this much as a matter of course, and more in some cases. So, if you have 2 gigabytes of RAM, Windows will eat at least 3 gigs of space from your drive.<br>
+<br>
+At first glance, this would appear to be insane overkill. I've done some reading up on this over the years, and the reasons behind it are fairly involved. They have to do with the way Windows manages it's chunks of memory.<br>
+<br>
+Basically, on paper, if you run without enough swap space you're risking all sorts of unspeakable horror and instability.<br>
+<br>
+In reality, you can run without any swapfile at all, provided you have enough RAM (two gigabytes is plenty). Your machine will not explode and your data will be safe. Windows will also become much more responsive, especially when swapping between programs.<br>
+<br>
+The only caveat is that if you ever DO run out of RAM, strange things will happen. Any programs currently running may simply disappear from the taskbar, along with their unsaved data.<br>
+<br>
+If you lack sufficient RAM to disable the swapfile with confidence, but have more than one hard drive installed, you can still improve performance by moving the swapfile to a non-system drive.<br>
+<br>
+<br>
+<b>I have a Yahoo toolbar appearing every time I use IE - it just appeared for no apparent reason. I can get rid of it temporarily by going to view and unselecting it, but it keeps coming back. How do I remove it permanently? I already have a Google toolbar. How did it get there in the first place?</b><br>
+<br>
+It may have installed itself when you installed another program - for example Acdsee has an option (ticked by default) to install it along with the main app. If you just hit "next next next" willy-nilly when installing (like most of us), it'll plonk itself on your hard drive without you realising it.<br>
+<br>
+This sort of behaviour is pretty nasty and does not reflect well on vendors, but I guess the money they get thrown at them is hard to resist.<br>
+<br>
+Anyway, if there isn't an entry in Add/Remove programs for it, this MS support article may help:<br>
+<br>
+http://support.microsoft.com/?kbid=303047<br>
+<br>
+<br>
+<h2>17/10/06</h2><br>
+<b>A few months ago I moved house and, as it was available, switched over to iiNet ADSL2 (previously I was on ADSL1). Since then, I find that my connection is dropping out quite frequently, whereas before it used to remain on for months at a time. Is this due to the newer technology, or am I doing something wrong?</b><br>
+<br>
+Quite a few things can affect the stability of a DSL connection, but they all come down to the clarity of the signal that your modem is using to 'talk' to the exchange.<br>
+<br>
+As we all know, the progressive clowns at Telstra have hobbled Australian ADSL with a maximum speed of 1500/256 (it has a theoretical maximum of 8000/1024).<br>
+<br>
+ADSL2+ is Telstra-independent, and as such has no speed restrictions. As a result, the modem will try and connect with the highest speed possible - which can theoretically be up to 24000/1024 (in the real world it is almost entirely dependent on your distance from the exchange).<br>
+<br>
+The bottom line is that ADSL2+ technology is not inherently any less stable than version 1, but it does try to squeeze a lot more juice out of your phone line's simple pair of copper wires than ever before.<br>
+<br>
+This means that it's going to be more prone to errors and dropouts when you get any line noise or interference.<br>
+<br>
+Interference can be caused by any other device on your telephone line - like the phone handset, or a fax. You can test, somewhat inconveniently, to see if anything is causing problems, by unplugging everything (bar the modem) from your line and waiting to see if the stability improves.<br>
+<br>
+If the problem goes away, a new, high quality ADSL line filter may help. You can also try a different handset.<br>
+<br>
+Another thing you can do is to set your connection "speed" profile in the iiNet toolbox to a lower setting. This basically forces your modem to connect with lower tolerances for line noise, sacrificing speed for stability.<br>
+<br>
+You could also try swapping your modem for a friend's (if possible), to see if the modem itself is the problem.<br>
+<br>
+If you still have no luck, chances are you have a problem with the line itself. Physical line faults need to be fixed by Telstra, as they still own the copper.<br>
+<br>
+iiNet can lodge a fault on your behalf, but if the problem turns out to be your new answering machine (or anything else not Telstra's fault) they can slap you for $90, so make sure you do this as a last resort only.<br>
+<br>
+<br>
+<h2>24/10/06</h2><br>
+<b>We are two oldies with a new Acer desktop, running Windows XP home. Our ISP is Optus. The new computer came with a bundled trial Norton anti-virus, which I changed to AVG free. After months of spam free e-mails, using Outlook Express, we now get an almost daily strange spam, which comes in several languages, from no-one we ever heard of, and the origin is always a jumble of consonants. It gets past the AVG scan, which duly certifies it virus free. Can we do anything to stop this?</b><br>
+<br>
+There are a few different things you can do to control spam. The main problem of course, is that spam doesn't always carry a virus (in fact most spam is just annoying advertising), and so AVG doesn't pick it up, as that's not its task.<br>
+<br>
+Getting rid of spam is one of life's endless problems. There are 3 main ways you can attack it:<br>
+<br>
+1 - locally, within your email program. Outlook Express doesn't have spam filtering of it's own built in, but various add-ons are available.<br>
+<br>
+A quick search and came up with these 3 cheerfully named options: www.spamfighter.com, www.spambully.com and (most cheerful of all), www.spambutcher.com.<br>
+<br>
+I haven't tried any of these though, as I use Mozilla Thunderbird for email, which has spam filtering built in.<br>
+<br>
+2 - remotely. Many ISPs can filter the spam before it even gets to you. Control for this is generally accessible from the ISP's main web page. Optus appear to have something at webmail.optusnet.com.au/spamfilter - however, not having an Optus account, I can't log in to help with specific settings.<br>
+<br>
+3 - prevention. As is traditionally said, it's the best cure. Avoid spam by not giving spammers your email address.<br>
+<br>
+Try not to type your email address into any web form if possible. Instead, set yourself up a "spam catcher" email address with hotmail.com, gmail.com, or use temporary mail service built for this exact purpose like mailinator.com.<br>
+<br>
+Also, if you post to newsgroups, don't use your real address - add a string of text somewhere which humans will be able to filter, but which the spammers' robots won't. For example, username@removethistoreply.optusnet.net.au.<br>
+<br>
+<br>
+<h2>31/10/06</h2><br>
+<b>I was very interested in the article "Mapping the Maze" (a few weeks ago in Exec Tech) on the concept of installing multiple hard drives with a RAID system to keep them continuously in sync, so that if the main HDD gives up the ghost, the machine switches seamlessly to the other HDD. I have two 80GB HDDs and would like to put this into practice. What software is required?</b><br>
+<br>
+There's good news and bad news. The good news is that you can set up a RAID array without any special software other than Windows XP itself.<br>
+<br>
+The bad news is that you can only set up a RAID-0 (stripe) array with XP - you need a server edition of XP to set up RAID-1 (mirroring).<br>
+<br>
+As you probably know, RAID-0 isn't actually redundant (and shouldn't have the R at all!) - it just increases performance. In fact, it doubles your chance of data loss, because if one hard drive kicks the bucket, the contents of the entire array are lost.<br>
+<br>
+Regardless, while software raid is easy to set up, it's also generally slower and less fault-tolerant. Ultimately, you'll have fewer headaches with a hardware solution.<br>
+<br>
+If you're lucky, your computer's motherboard will support RAID in hardware already; newer and higher-end boards all tend to.<br>
+<br>
+Instructions on how to set it up vary, but they all involve manipulating the BIOS settings, and pressing a certain key combination when the machine starts up to bring up the RAID setup screen.<br>
+<br>
+If you have a manual for your motherboard, it should have the details of what to do. If not, try checking the manufacturer's website.<br>
+<br>
+If your board doesn't have native RAID, your only other option is to invest in a separate controller card. These vary in price a lot, depending on their application - simple mirroring for your home PC shouldn't set you back the earth, whereas server-type RAID-5 cards with dedicated CPUs and cache RAM can easily cost thousands.<br>
+<br>
+You can expect an entry-level RAID card to set you back about $100.<br>
+<br>
+<i><p>Did the information on this page help you? Entertain you? Bore you? <a href="contactbdfe.html">Drop me a line</a>.</p>
+
+<p>If you're feeling particularly generous, you can even <a href="buypics.html">click here to send me some dot-com riches</a>. Think of it as online busking.</i></p>
+	</div>
+</div>
+</body>
+
+<!-- Mirrored from localhost:800/truffulatree/masterit200610.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Feb 2021 02:41:19 GMT -->
+</html>

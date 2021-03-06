@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from localhost:800/truffulatree/masterit200508.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Feb 2021 02:41:17 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Mark's Homepage - August 2005 - Q&A letters</title>
+	<LINK rel=STYLESHEET href="templates/truffulatree.css" type="text/css">
+	<META content="Mark" name="Author">
+	<META content="nerd's eye view,australia,photos,travel" name="KeyWords">
+	<META name="description" content="Q&A letters">
+	<META content="TravelWin CMS" name="Generator">
+	<script src="../../www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-1273091-1";
+		urchinTracker();
+	</script>
+</head>
+<body>
+<div id="page">
+	<div id="navigation">
+		<img src="images/mark_upside.jpg" alt="Peekaboo!" title="Peekaboo!" width="153" height="244">
+		<ul>
+	<li>Navigate to:</li>
+<li><a title="Q&A letters" href='masterit200501.html'>January 2005</a></li>
+<li><a title="Q&A letters" href='masterit200502.html'>February 2005</a></li>
+<li><a title="Q&A letters" href='masterit200503.html'>March 2005</a></li>
+<li><a title="Q&A letters" href='masterit200504.html'>April 2005</a></li>
+<li><a title="Q&A letters" href='masterit200505.html'>May 2005</a></li>
+<li><a title="Q&A letters" href='masterit200506.html'>June 2005</a></li>
+<li><a title="Q&A letters" href='masterit200507.html'>July 2005</a></li>
+<li><div class='activemenu'>August 2005</div></li>
+<li><a title="Q&A letters" href='masterit200509.html'>September 2005</a></li>
+<li><a title="Q&A letters" href='masterit200510.html'>October 2005</a></li>
+<li><a title="Q&A letters" href='masterit200511.html'>November 2005</a></li>
+<li><a title="Q&A letters" href='masterit200512.html'>December 2005</a></li>
+<li> </li><br><li>Or go back to:</li><li><a title='Q&A/MasterIT letters from 2005' href="masterit2005.html">2005 archive</a></li>
+</ul>
+<BR>
+		<p>
+		<IMG src="images/loraxlg.gif" alt="I speak for the trees!" title="I speak for the trees!">
+		<BR><BR>
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-6581529309076769";
+		google_ad_width = 120;
+		google_ad_height = 600;
+		google_ad_format = "120x600_as";
+		google_ad_type = "text";
+		google_ad_channel ="";
+		google_color_border = "E0FFE3";
+		google_color_bg = "E0FFE3";
+		google_color_link = "0000CC";
+		google_color_url = "008000.html";
+		google_color_text = "000000";
+		//--></script>
+		<script type="text/javascript"
+		  src="../../pagead2.googlesyndication.com/pagead/f.txt">
+		</script>
+		</p>
+	</div>
+	<div id="content">
+		<!-- display content -->
+		<h1>August 2005</h1>
+		You are here: <a title='truffulatree.com.au homepage' href="home.html">Home</a> > <a title='Mark's writing' href="written.html">Professional Writing</a> > <a title='My weekly Q&A column in The Australian' href="masterIT.html">MasterIT</a> > <a title='Q&A/MasterIT letters from 2005' href="masterit2005.html">2005 archive</a> > <a title='Q&A letters' href="masterit200508.html">August 2005</a>
+<br><br>		<br>
+<h2>2/8/05</h2><br>
+<b>I'm using a dialup connection to the net with 2 laptops connected to each other via a crossover cable. Both are using XP. The first laptop dials up to the net, and has its "Share Internet Connection to another computer" box ticked. It's LAN Properties IP is set to 192.168.0.1.</b><br>
+<br>
+The other laptop has it's LAN Network IP address is set to 192.168.0.2, but is unable to browse the net. If I tick "Obtain automatic IP address" it works; but isn't the 192.168.0.2 sufficient for a simply Peer to Peer connection? What if I want to set the IP of the Dependent Laptop explicitly?<br>
+<br>
+By specifying IP addresses (and the same subnet mask), you'll have a perfectly usable network connection between the two laptops, however, using one as a shared Internet connection requires you to specify a couple more magic numbers.<br>
+<br>
+If you look in the TCP/IP networking properties, under the IP address and subnet mask, you'll see entries for a default gateway, and DNS.<br>
+<br>
+Both of these need to be set to the IP address of the net-sharing laptop; in your case, 192.168.0.1. You only need to fill in one of the DNS server entries, by the way.<br>
+<br>
+The gateway setting tells Windows which machine on your network is connected to the outside world.<br>
+ <br>
+DNS servers (or nameservers) translate easy-to-remember Internet addresses like "truffulatree.com.au" into their actual IP addresses (which are hard to remember, but are what computers actually use when they communicate across a network). <br>
+<br>
+When you select automatic, Windows fills in all these values for you, as well as getting an IP address, which is why it was working.<br>
+<br>
+<br>
+<b>Windows - XP in my case - has one really annoying feature which I can't circumvent. I'd like particular programs to open particular files when I double click; Acrobat to view PDFs, ACDSee to view GIFs & JPGs. Easy, you say - in Explorer go to Tools->Folder Options and choose the File Types tab, then choose the required program. I've done that, and it didn't work; the evil Micro$oft gremlin uses its own programs (Windows Picture and Fax Viewer for GIFs, Internet Explorer for PDFs).</b><br>
+<br>
+A simple registry patch will get rid of the irritating and highly mediocre MS picture viewer. You can download it from http://tinyurl.com/9u9lt. It's one of the first things I run after installing Windows.<br>
+<br>
+To fix the PDF association, go into Acrobat, then select Edit->Preferences->Internet and deselect "Display PDF in browser".<br>
+<br>
+<br>
+<h2>9/8/05</h2><br>
+<b>You recently made reference to Remote Desktop in Windows XP. I’ve tried setting this up so that I can connect to my PC back in the office, via my laptop, when I am out visiting clients (both are running on Windows XP Professional). I have followed the Knowledge Base instructions, but am having difficulty working out how to identify the PC back in the office that I want to connect to. How can I identify this PC, when I am trying to connect to it over the internet?</b><br>
+<br>
+The problem you're having is pretty common. It's to do with a thing called NAT, or Network Address Translation. This is the technology that lets a number of PCs access the Internet via a single gateway IP address. <br>
+<br>
+Basically, whenever a PC on the network requests data, the request goes through the router/firewall. When the data comes back, the router forwards (or routes - hence the name) it to the appropriate PC. This works wonderfully for requested data, but if unrequested data (like trying to remote desktop from outside) arrives, the router doesn't know where to send it, and drops it in the bit bucket.<br>
+<br>
+To get around this, you can tell the router to specifically direct incoming traffic of a certain type to a particular PC. The problem with this approach is that it limits the incoming connection possibilities to just one PC, so if someone else in the office wants to connect to THEIR PC, they can't. Office PCs can also sometimes have dynamic addresses, in which case this approach will be impossible.<br>
+<br>
+The other major stumbling block is known as the sysadmin. They *may* create a mapping for you, if you butter them up enough, but chances are they won't like having that sort of a security hole in their network, and sysadmins get very touchy about that sort of thing. They're also unlikely to want to make arbitrary mappings for the reasons listed above.<br>
+<br>
+The only other solution is to create a VPN (Virtual Private Network) endpoint; so that when you're remote, you can log in to your office network over the internet, and then remote desktop to your work PC by network name. This is just about your best bet, but it's a fair bit more work to set up, so you'll really need to be on good terms with the sysadmin to get them to implement this (being their spouse may or may not be sufficient; being the boss is probably the best approach).m<br>
+<br>
+<br>
+<h2>16/8/05</h2><br>
+<b>I have a problem with a programme called Magic Keyboard, which I cannot remove from my PC. The programme always comes on at start up and stays on, therefore any attempt to remove the programme is defeated because the programme is running.</b><br>
+<br>
+If you're having problems removing a program because it's running already, there are a few options, but one of the easiest is to prevent it from starting up in the first place by using the Msconfig utility.<br>
+<br>
+To fire this up, just hit Windows-R (to run a program) and then type "msconfig". This handy little program lets you tweak a few different things, but we're only interested in the "startup" tab. Click on it and have a look through the list of programs for MagicKey.exe (or something similar). Un-tick the box next to it, then reboot and have another go at uninstalling the program.<br>
+<br>
+<br>
+<b>I would like to access my “favourites” from the Task Bar. All enquiries and investigation have failed. If its possible to do would you kindly advise me.</b><br>
+<br>
+This shouldn't be too hard, provided you're using XP and Internet Explorer.<br>
+<br>
+Mozilla users are at a disadvantage for once; I'm afraid you can't do it without a fair bit of mucking around, followed by constant maintenance of two favourites lists.<br>
+<br>
+For IE though, it's easy. First up, right click on the taskbar, then click "toolbars", and select "new toolbar". A browse window should pop up. Navigate to c:Documents and settings<your username>Favourites, and click ok.<br>
+<br>
+<br>
+<b>I working near my keyboard and looked up at the screen and it had tipped itself sideways 180 degrees. We fixed it, but what did I do? The mouse also went odd - difficult to move the arrow - any clues appreciated!</b><br>
+<br>
+I'm not sure if it was deliberate or not (depends on how many pranksters you have around), but I do know that many modern video card support screen rotation in their drivers.<br>
+ <br>
+For example, with Nvidia drivers you can rotate by right clicking on the little Nvidia icon in the taskbar (if it's present), then selecting a display and going to "rotation".<br>
+<br>
+The official use for this technology is for projectors mounted at odd angles and so on. The unofficial use if of course to annoy co-workers. :)<br>
+<br>
+Some drivers no doubt have shortcut keys for this functionality, and I'm guessing that you might have struck such a key combination by accident.<br>
+<br>
+<br>
+<h2>23/8/05</h2><br>
+<b>I tried foolishly to upgrade Active Sync 3.71 to 3.8 when I bought a new PDA, and the installation got hung up after unpacking the files. It would not allow the PDA to sync, and uninstall/reinstall also hung. I've tried various "fixes" off the 'net, like editing my registry, trying to run the install program from the Temp folder and renaming the Temp folder, all to no avail. My computer now doesn't recognise either of my PDAs. Help!</b><br>
+<br>
+Do the PDAs show up in the device manager (right click My Computer, select "manage" and then "device manager")? If so, you can try uninstalling them (right click on the device, and select "uninstall"), and then let Windows re-detect them.<br>
+<br>
+If this doesn't work after a normal boot, try it again after starting in safe mode. Safe mode is a special diagnostic mode you can activate by holding down F8 as your computer starts. You'll get a menu with various options - you want safe mode.<br>
+<br>
+Windows will take ages to start up, then appear in a much cut down form (big fonts, less icons). Don't let it worry you, just uninstall the PDA devices as described above, then reboot and everything should be back to normal.<br>
+<br>
+Failing all that, it might also be possible to do a 'rollback', using system restore, to take Windows back in time to before you did the upgrade. The disadvantage here is that you'd also lose any new programs or settings you've installed since then.<br>
+<br>
+<br>
+<b>I have a Windows 98 desktop with a dial-up modem which runs Internet Connection sharing. Whenever my Win XP notebook connects to the network on start up it requests an Internet connection and the modem dials. I've turned off everything that I can think of which might trigger this (Windows Update, Anti-virus update) but it still occurs. How can I find out which application/process is doing this?</b><br>
+<br>
+The best way to get to the bottom of this is to install a third party firewall on the XP notebook (like Zonealarm (www.zonelabs.com), and then see what tries to hit the net when you start up.<br>
+<br>
+Zonealarm is a very good program, but it operates on a very low level, so after solving the problem I wouldn't leave it installed, it can cause quirky and characterful behaviour in the future. As long as your notebook has SP2 installed, you can use the built in Windows firewall, which works almost as well.<br>
+<br>
+Some security nerds will most likely shoot me for recommending Windows' firewall over Zonealarm, but in my experience it's fine for a notebook. Servers are a different story of course.<br>
+<br>
+<br>
+<h2>30/8/05</h2><br>
+<b>When I was updating Windows XP the other day I took note of some of the "5 cool Windows XP tips" – one in particular I find really handy but am wondering if there is a down side to putting the system into stand by mode? I’m making sure any programs are closed down.</b><br>
+<br>
+You've hit the nail on the head regarding shutting down programs. The biggest downside of standby mode is that, if you lose external power, your system will restart and you'll lose anything that you had running, so it's best to close everything before going into standby.<br>
+<br>
+Similarly, sometimes Windows won't wake up properly from Standby, necessitating a reboot. This is less common though with modern versions of Windows, and newer hardware.<br>
+<br>
+Apart from that, there aren't many downsides to using standby mode. The only other thing to consider is that your computer will use a little bit more power when in standby than if it was completely powered off. This is because standby mode saves the system state in RAM, which needs a small amount of power to retain it's contents.<br>
+<br>
+Your other option is hibernate mode, which does basically the same thing as standby, only it saves the contents of the computer's memory to the hard disk before shutting off. Speed-wise, it lies in between standby and a full system shutdown/startup.<br>
+<br>
+<br>
+<b>Dear Master. Perhaps this isn't technical enough, but could you please help settle a spousal dispute? Is it "CDs/DVDs" or "CD's/DVD's"?</b><br>
+<br>
+Ok, it's not terribly technical, but just this one I'll risk the wrath of sub editors and English professors to save a marriage (plus, apostrophe misuse is a pet hate of mine).<br>
+<br>
+"CDs" is technically correct; officially, apostrophes are not for use with plurals, unless it's to avoid confusion when dealing with single letters and numbers (as in, "there are many O's in Woolloomooloo").<br>
+<br>
+There does seem to be a school of thought around nowadays that says it's acceptable to apostrophise acronyms; I'm not having a bar of it though. DVD's, CD's, CPU's, photo's and pizza's are all wrong, wrong, WRONG, unless one is using the term in a possessive sense (eg "the CD's cover is unsurprisingly cracked", "the pizza's stuffed crust was empty").<br>
+<br>
+I'm not sure why sign writers for record stores - and menu writers for restaurants - seem unable to comprehend any of this.<br>
+<br>
+Perhaps it's because apostrophes are also used for contractions too; but I just prefer to blame society.<br>
+<br>
+<i><p>Did the information on this page help you? Entertain you? Bore you? <a href="contactbdfe.html">Drop me a line</a>.</p>
+
+<p>If you're feeling particularly generous, you can even <a href="buypics.html">click here to send me some dot-com riches</a>. Think of it as online busking.</i></p>
+	</div>
+</div>
+</body>
+
+<!-- Mirrored from localhost:800/truffulatree/masterit200508.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Feb 2021 02:41:17 GMT -->
+</html>

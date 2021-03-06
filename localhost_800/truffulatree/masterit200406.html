@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from localhost:800/truffulatree/masterit200406.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Feb 2021 02:41:15 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Mark's Homepage - June 2004 - Q&A letters</title>
+	<LINK rel=STYLESHEET href="templates/truffulatree.css" type="text/css">
+	<META content="Mark" name="Author">
+	<META content="nerd's eye view,australia,photos,travel" name="KeyWords">
+	<META name="description" content="Q&A letters">
+	<META content="TravelWin CMS" name="Generator">
+	<script src="../../www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-1273091-1";
+		urchinTracker();
+	</script>
+</head>
+<body>
+<div id="page">
+	<div id="navigation">
+		<img src="images/mark_upside.jpg" alt="Peekaboo!" title="Peekaboo!" width="153" height="244">
+		<ul>
+	<li>Navigate to:</li>
+<li><a title="Q&A letters" href='masterit200401.html'>January 2004</a></li>
+<li><a title="Q&A letters" href='masterit200402.html'>February 2004</a></li>
+<li><a title="Q&A letters" href='masterit200403.html'>March 2004</a></li>
+<li><a title="Q&A letters" href='masterit200404.html'>April 2004</a></li>
+<li><a title="Q&A letters" href='masterit200405.html'>May 2004</a></li>
+<li><div class='activemenu'>June 2004</div></li>
+<li><a title="Q&A letters" href='masterit200407.html'>July 2004</a></li>
+<li><a title="Q&A letters" href='masterit200408.html'>August 2004</a></li>
+<li><a title="Q&A letters" href='masterit200409.html'>September 2004</a></li>
+<li><a title="Q&A letters" href='masterit200410.html'>October 2004</a></li>
+<li><a title="Q&A letters" href='masterit200411.html'>November 2004</a></li>
+<li><a title="Q&A letters" href='masterit200412.html'>December 2004</a></li>
+<li> </li><br><li>Or go back to:</li><li><a title='Q&A/MasterIT letters from 2004' href="masterit2004.html">2004 archive</a></li>
+</ul>
+<BR>
+		<p>
+		<IMG src="images/loraxlg.gif" alt="I speak for the trees!" title="I speak for the trees!">
+		<BR><BR>
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-6581529309076769";
+		google_ad_width = 120;
+		google_ad_height = 600;
+		google_ad_format = "120x600_as";
+		google_ad_type = "text";
+		google_ad_channel ="";
+		google_color_border = "E0FFE3";
+		google_color_bg = "E0FFE3";
+		google_color_link = "0000CC";
+		google_color_url = "008000.html";
+		google_color_text = "000000";
+		//--></script>
+		<script type="text/javascript"
+		  src="../../pagead2.googlesyndication.com/pagead/f.txt">
+		</script>
+		</p>
+	</div>
+	<div id="content">
+		<!-- display content -->
+		<h1>June 2004</h1>
+		You are here: <a title='truffulatree.com.au homepage' href="home.html">Home</a> > <a title='Mark's writing' href="written.html">Professional Writing</a> > <a title='My weekly Q&A column in The Australian' href="masterIT.html">MasterIT</a> > <a title='Q&A/MasterIT letters from 2004' href="masterit2004.html">2004 archive</a> > <a title='Q&A letters' href="masterit200406.html">June 2004</a>
+<br><br>		<br>
+<h2>1/6/04</h2><br>
+<b>Inspired by the column on file compression published on 13/4, I would like to ask about pattern matching, as I have often wondered how it works it's magic. It seems relatively simple to extract from a text file all the words that contain, say, the letter "a"; but a different proposition is to extract all those matching an even modestly complex regular expression. I would like to be pointed in the right direction regarding the smart algorithms that, for sure, computer scientists have invented for dealing with this task.</b><br>
+<br>
+There are indeed some clever algorithms for matching patterns, and they almost all involve Nasty Maths, so strap on your propeller cap before proceeding.<br>
+<br>
+For the baffled, "regular expressions" (or regexes as they're known by programmers, who are, let's face it, chronically lazy) form a special kind of pattern matching language.<br>
+<br>
+They allow one to search for much more than a simple phrase of text. For example, you can construct a search to pick up any valid email addresses by specifying the general format you want - a word plus an "@" sign, plus some more words with full stops in between them.<br>
+<br>
+Large reference tomes are (of course) available on regexes; you'll know if they excite you. For a very brief introduction check out www.regular-expressions.info/tutorial.html.<br>
+<br>
+Now that we've lost half the audience, we can get back to the subject of the actual algorithms that do the matching. Master or not, I'm not going to try to explain any of these; rather, I'll just point to www-igm.univ-mlv.fr/~lecroq/string.<br>
+<br>
+This site has a fantastic array of algorithms, from the basic brute force (just check each character for the required string), through to exotic fruits like the "Backward Nondeterministic Dawg Matching algorithm".<br>
+<br>
+The Boyer-Moore algorithm is also there, which is very commonly used in word processors and text editors for performing searches. <br>
+<br>
+Needless to say, the Nasty Maths are all laid out, and a C code example is also provided, as well as an executable example of the algorithm working right before your eyes.<br>
+<br>
+When searching for regular expressions the plot thickens as you can well imagine. See www.linuxgazette.com/issue27/mueller.html for some brain stretching info on how it's approached. <br>
+<br>
+Send less mathematically scary queries to <a href="contactbdfe.html">(the masterit contact email address)</a><br>
+<br>
+<br>
+<h2>8/6/04</h2><br>
+<b>There is a facility in Windows 2000 where you can make a note appear next to a file or folder when Windows Explorer is open and in web view. This note appears in yellow adjacent to the selected file or folder in the right hand pane. I read sometime ago how to do this but cannot remember the method. I'd like to utilise this handy feature as I need to leave brief descriptions with some folders I'm working on. How can I achieve this?</b><br>
+<br>
+Setting folder descriptions is fairly straightforward, although it can be a little bit fiddly in XP.<br>
+<br>
+The easiest option in either OS is to make a shortcut to the item (right click, create shortcut), then alter said shortcut's properties. The "comment" field is the one that will be displayed in the yellow box, but unfortunately this only works with the shortcut, not the original folder itself.<br>
+<br>
+If you want to add tips to the actual folder, the first step is to open the folder, then select "View->Customise this folder" (well, "customize"; so much for localisation). <br>
+<br>
+Windows 2000 takes you through a nice wizard that will let you change the comment and a few other things.<br>
+<br>
+XP, unfortunately, only lets you change the icon. We can't set a comment yet, but change the icon anyway, as once that's done Windows will create a hidden file within the folder called "desktop.ini". We'll edit this file to change the description.<br>
+<br>
+There are ways of making this file show up in Explorer, but we don't need to bother, as we just want to edit it, so it's sufficient to just know it's there.<br>
+<br>
+Open Notepad, then select File->Open. Browse to the folder you customised above, and manually type "desktop.ini" into the filename field. You should see some lines of text starting with "[.ShellClassInfo]".<br>
+<br>
+To set your tooltip, add a line starting with "InfoTip=" followed by your description. If you want to remove the custom icon you just set you can remove the lines starting with "Iconfile=" and "IconIndex=". Now just hit save and your tip should be in place.<br>
+<br>
+<br>
+<h2>15/6/04</h2><br>
+<b>My brother-in-law has a reasonably new Dell Desktop PC with XP Home and Word 2002 as the only additional application, which was loaded by Dell prior to shipment. The problem is that when Word is run for the first time it takes a long time to load - 70 to 90 seconds. Second and subsequent loads are just a few seconds, so I suspect it is cached in RAM after the first load. I would like to help him adjust the initial load time to a more realistic time. Where do I start looking? Or where can I get an answer for this?<br>
+The slow load time could be a number of things, but it's unlikely to have much to do with RAM caching. RAM is certainly much fast than disc; but not to that extent.</b><br>
+<br>
+Thankfully though, the issue isn't unheard of. The common consensus points to a corrupted Normal.dot file (Word's default template), a problem with a virus scanner, or a bad Word plug-in.<br>
+<br>
+Try disabling any anti-virus software and see if the problem persists (Norton has an Office plug-in which has been known to cause problems, but it can be disabled without having to remove the entire program).<br>
+<br>
+The Normal.dot template and plug-ins can be temporarily disabled by starting Word with the /A switch - press Windows-R (to bring up the run dialog), then type "winword /a", and see if the load time improves.<br>
+<br>
+To answer the second question, the best place to look for help on issues like this is Google, and specifically Google Groups, which lets you search newsgroup posts on just about everything.<br>
+<br>
+For Microsoft specific issues you can also have a look at www.mvps.org, a jumping off point for the Microsoft Most Valuable Professional program. MVPs are selfless individuals who have been awarded this status in recognition of their consistent free (and accurate) online help to the Internet community at large.<br>
+<br>
+You may love the spirit of volunteering, or you may find the idea of Microsoft patting people on the head for seemingly having too much time on their hands somewhat daggy, but there is no doubting the usefulness of the expert advice to be found here. <br>
+<br>
+Check out tinyurl.com/27rjd for some of their hints on the Word startup issue.<br>
+<br>
+Volunteer your expert queries to <a href="contactbdfe.html">(the masterit contact email address)</a><br>
+<br>
+<br>
+<h2>22/6/04</h2><br>
+<b>My son just upgraded my PC to Windows XP Pro. Now I have to log on, whereas previously in 2000 it just used to go straight in to the desktop. Is there some way I can bypass the logon screen?</b><br>
+<br>
+Yes, it's quite straightforward. The easiest way is to hit Windows-R and type "control userpasswords2". This will bring up the more advanced user management control panel, as opposed to the rubber-baby-buggy-bumpers default. No, you cannot change your login picture with this one.<br>
+<br>
+From here, untick the "users must enter..." box up the top, and click Apply. A dialog will pop up asking which user to automatically log on as, and what password to use. Just fill in the details and away you go.<br>
+<br>
+Note that doing this on your work PC may make your Sysadmin restrict your account to guest access.<br>
+<br>
+<br>
+<b>My computer was running slow and my friend said I should turn off System Restore. Is this a good idea? How do you do it?</b><br>
+<br>
+Turning off System Restore will only speed up certain things. What it does is back up your system state (essentially registry settings and some system files) regularly, so that in the event of a catastrophe (like installing a bad driver that crashes your system constantly) you can backtrack to the last stable point in time.<br>
+<br>
+Windows will create system restore points behind your back periodically, and it will also create them when you install a new piece of hardware, or a critical Microsoft patch (and aren't they just like hen's teeth).<br>
+<br>
+Generally speaking, it's not a bad idea to leave system restore on (it has brought my pc back from the dead at least once), and it shouldn't slow down day to day things.<br>
+<br>
+If you're installing 50 critical updates at once though, turning it off temporarily will certainly speed things up. You can also turn it off and on to delete all the restore points and start again, which can free up quite a bit of hard drive space.<br>
+<br>
+The settings are quite intuitive, and can be found in the System control panel, which you can quickly get to by right clicking My Computer and selecting Properties.<br>
+<br>
+Send queries, passwords and PINs to <a href="contactbdfe.html">(the masterit contact email address)</a><br>
+<br>
+<br>
+<h2>29/6/04</h2><br>
+<b>Having just hooked up to broadband, I've been experimenting with audio and video conferencing, as various rellies live in different states and it seems like a cheap and fun way to keep in touch. I say experimenting because, to date, I haven't been able to get anything working. I'm been trying to use MSN messenger's audio and video conference features, and Netmeeting. They all say "connecting to…" and then come back with an error after about 30 seconds. Any ideas or suggestions? The camera and audio hardware all work fine locally.</b><br>
+<br>
+Most likely you're having troubles due to firewalls blocking the data streams needed by MSN for audio and video conferencing. When computers communicate, the data travels from one address to another, using specific ports. Firewalls basically block off most ports, to stop nasties getting in.<br>
+<br>
+Normally what you'd need to do in this situation is "poke some holes" in your firewall - in other words open some ports - to let the data through. The first bit of bad news is that this isn't always easy for novices.<br>
+<br>
+Secondly, it's even worse if you're trying to use an office network, as chances are the sysadmin has well and truly locked the firewall down, and they're not going to open up random ports and create security holes. Not be you friend, boss, spouse, or prime minister.<br>
+<br>
+The other bad news is that the videoconference feature of Messenger doesn't even use the same ports each time; it chooses semi-random ports for the video and audio streams. This makes it much harder to get working though firewalls, so all the above is kind of moot. <br>
+<br>
+The final piece of joy is that the problem is also likely to be compounded by a firewall at the other end of the connection too.<br>
+<br>
+Netmeeting will also has the same problems (in fact, the MSN videoconference protocol is based on Netmeeting's).<br>
+<br>
+Thankfully, not all audio/video conference programs are this braindead, so don't give up in disgust just yet.<br>
+<br>
+Eyeball Chat (www.eyeballchat.com) is free, and works automatically with most firewalls. If you're just after an audio connection, Skype (www.skype.com) is also free, and works very well.<br>
+<br>
+It just goes to show that you can program decent network code if you try.<br>
+<br>
+Send queries and underhanded digs at Microsoft's programmers to <a href="contactbdfe.html">(the masterit contact email address)</a><br>
+<br>
+<i><p>Did the information on this page help you? Entertain you? Bore you? <a href="contactbdfe.html">Drop me a line</a>.</p>
+
+<p>If you're feeling particularly generous, you can even <a href="buypics.html">click here to send me some dot-com riches</a>. Think of it as online busking.</i></p>
+	</div>
+</div>
+</body>
+
+<!-- Mirrored from localhost:800/truffulatree/masterit200406.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Feb 2021 02:41:15 GMT -->
+</html>
