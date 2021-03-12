@@ -51,18 +51,27 @@
 		<!-- display content -->
 		<h1>IPChangeDetect</h1>
 		You are here: <a title='truffulatree.com.au homepage' href="home.html">Home</a> > <a title='Programming work I've done' href="programming.html">Programming</a> > <a title='IPChangedetect - an update tool for ddns.nu' href="ipchangedetect.html">IPChangeDetect</a>
-<br><br>		<br>
-<br>
-IPChangeDetect is a program that will periodically scan your machine's internet IP address, and automatically update your DDNS entry if it changes, using the DDNS system at <a href="http://www.ddns.nu/">http://www.ddns.nu</a>. It's pretty simple really. Read the docs to get more info.<br>
-<br>
-Version History:<br>
-<br>
-<table border="0" valign="top"><tr><td valign="top">1.1.21</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Added 127.0.0.1 to the 'private' ip list so it will be flagged as static by default.</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.20</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">New IPs will be automatically flagged as 'static' if they are in the private ranges 10.0.0.x, 192.168.x.x and 169.254.x.x.</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.19</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Fixed bug where if update was called twice in one go (eg if two IPs were not flagged as static) it would crash with an error. Now it'll pop up a box and warn you, so you can go in and make sure only one IP is not ticked as static</td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Redid the display code for the DDNS updater, it's a bit cleaner now and doesn't show the password.</td></tr><tr></tr><td align="right" valign="top">-</td><td class="optimus">tested the timeout code - it does work properly (of course ;))</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.17</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Fixed a bug whereby only one update would work per time run</td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Added a manual 'update now' button</td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Tried to add code to handle server timeouts, kinda hard to test but I think it'll work</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.15</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Incorporated <a href="http://transf0r.hypermart.net/other.htm">James Salter's AutoDDNS code</a></td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.10</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">First Release, boring and buggy</td></tr></table><br>
-<br>
-Click below to download the latest version (EXE only - 56k, or full installer - 1455k) (28/10/01, V1.1.21)<br>
+<br><br>		
+<br>
+
+<br>
+IPChangeDetect is a program that will periodically scan your machine's internet IP address, and automatically update your DDNS entry if it changes, using the DDNS system at <a href="http://www.ddns.nu/">http://www.ddns.nu</a>. It's pretty simple really. Read the docs to get more info.
+<br>
+
+<br>
+Version History:
+<br>
+
+<br>
+<table border="0" valign="top"><tr><td valign="top">1.1.21</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Added 127.0.0.1 to the 'private' ip list so it will be flagged as static by default.</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.20</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">New IPs will be automatically flagged as 'static' if they are in the private ranges 10.0.0.x, 192.168.x.x and 169.254.x.x.</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.19</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Fixed bug where if update was called twice in one go (eg if two IPs were not flagged as static) it would crash with an error. Now it'll pop up a box and warn you, so you can go in and make sure only one IP is not ticked as static</td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Redid the display code for the DDNS updater, it's a bit cleaner now and doesn't show the password.</td></tr><tr></tr><td align="right" valign="top">-</td><td class="optimus">tested the timeout code - it does work properly (of course ;))</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.17</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Fixed a bug whereby only one update would work per time run</td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Added a manual 'update now' button</td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Tried to add code to handle server timeouts, kinda hard to test but I think it'll work</td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.15</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">Incorporated <a href="http://transf0r.hypermart.net/other.htm">James Salter's AutoDDNS code</a></td></tr><tr><td class="optimus"> </td><td class="optimus"> </td></tr><tr><td valign="top">1.1.10</td><td class="optimus"> </td></tr><tr><td align="right" valign="top">-</td><td class="optimus">First Release, boring and buggy</td></tr></table>
+<br>
+
+<br>
+Click below to download the latest version (EXE only - 56k, or full installer - 1455k) (28/10/01, V1.1.21)
+<br>
 <br><br>
 Files available for download:<br>
-<ul class="dirlist"><li><a href="files/ipchangedetect/IPChangeDetect.exe">IPChangeDetect.exe</a></li><li><a href="files/ipchangedetect/IPChangeDetect.zip">IPChangeDetect.zip</a></li></ul><!-- old method
+<ul class="dirlist"><li><a href="files/ipchangedetect/IPChangeDetect.zip">IPChangeDetect.zip</a></li></ul><!-- old method
 getTheFiles($file);
 
 function getTheFiles($folder) {
